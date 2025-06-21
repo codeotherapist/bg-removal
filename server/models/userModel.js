@@ -5,10 +5,10 @@ const userSchema = new mongoose.Schema({
     email : { type:String , required:true, unique:true },
     photo : { type:String , required:true },
     firstName : { type:String },
-    Lastname  : { type:String },
-    creditBalance : { type: Number, default:3 },
+    lastname  : { type:String },
+    creditBalance : { type: Number, default:5}
 })
 
-const userModel = mongoose.models.user || mongoose.model("user, userSchema")
+const userModel = mongoose.models.user || mongoose.model("user", userSchema)
 
 export default userModel;
