@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Steps from '../components/Steps'
 import BgSlider from '../components/BgSlider'
-import testimonials from '../components/testimonials'
+import Testimonials from '../components/testimonials'
 import Upload from '../components/Upload'
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
       <Header />
       <Steps/>
       <BgSlider/>
-      <testimonials/>
+      <Testimonials/>
       <Upload/>
     
     </div>
